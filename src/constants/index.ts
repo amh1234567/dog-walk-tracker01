@@ -14,3 +14,4 @@ export const SUPABASE_CONFIG = {
   TABLE_NAME: 'walks',
 } as const
 
+

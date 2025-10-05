@@ -31,3 +31,4 @@ COMMENT ON COLUMN walks.distance IS '散歩の距離（km）';
 COMMENT ON COLUMN walks.note IS '散歩のメモ（任意）';
 COMMENT ON COLUMN walks.created_at IS 'レコード作成日時';
 
+

@@ -20,3 +20,4 @@ export interface WalkStats {
   totalDistance: number
 }
 
+

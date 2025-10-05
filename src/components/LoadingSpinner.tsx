@@ -20,3 +20,4 @@ export default function LoadingSpinner({ size = 'md', text = '読み込み中...
   )
 }
 
+

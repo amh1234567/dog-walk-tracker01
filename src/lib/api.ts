@@ -1,4 +1,4 @@
-import { supabase } from './supabaseClient'
+import { supabase } from './supabase'
 import { Walk, WalkFormData, WalkStats } from '@/types/walk'
 import { isSupabaseConfigured, getTodayString, calculateTotalDistance, getTodaysWalks, sortWalksByDate } from './utils'
 
@@ -140,4 +140,5 @@ export const walkApi = {
     }
   },
 }
+
 

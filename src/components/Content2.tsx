@@ -53,3 +53,4 @@ export default function Content2({ todaysWalks }: Content2Props) {
   )
 }
 
+

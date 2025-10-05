@@ -51,3 +51,4 @@ export const sortWalksByDate = (walks: Walk[]): Walk[] => {
   })
 }
 
+

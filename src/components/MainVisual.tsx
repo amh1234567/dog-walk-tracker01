@@ -99,3 +99,4 @@ export default function MainVisual({ stats }: MainVisualProps) {
   )
 }
 
+

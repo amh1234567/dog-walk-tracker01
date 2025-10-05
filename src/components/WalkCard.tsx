@@ -64,3 +64,4 @@ export default function WalkCard({ walk, onWalkDeleted }: WalkCardProps) {
   )
 }
 
+
