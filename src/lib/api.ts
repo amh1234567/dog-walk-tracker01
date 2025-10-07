@@ -11,7 +11,7 @@ export const walkApi = {
 
     try {
       const { data, error } = await supabase
-        .from('walks')
+        .from('walk02')
         .select('*')
         .order('date', { ascending: false })
         .order('time', { ascending: false })
@@ -38,7 +38,7 @@ export const walkApi = {
     
     try {
       const { data, error } = await supabase
-        .from('walks')
+        .from('walk02')
         .select('*')
         .eq('date', today)
         .order('time', { ascending: false })
@@ -94,7 +94,7 @@ export const walkApi = {
 
     try {
       const { error } = await supabase
-        .from('walks')
+        .from('walk02')
         .insert([
           {
             date: formData.date,
@@ -124,7 +124,7 @@ export const walkApi = {
 
     try {
       const { error } = await supabase
-        .from('walks')
+        .from('walk02')
         .delete()
         .eq('id', id)
 

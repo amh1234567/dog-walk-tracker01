@@ -10,9 +10,15 @@ export default function AddWalkPage() {
         </p>
       </div>
 
-      <WalkForm />
+      <WalkForm />  {/* ← ここでWalkFormコンポーネントを呼び出している */}
     </div>
   )
 }
+
+
+
+
+
+
 
 

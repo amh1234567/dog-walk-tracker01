@@ -11,7 +11,7 @@ export const ROUTES = {
 } as const
 
 export const SUPABASE_CONFIG = {
-  TABLE_NAME: 'walks',
+  TABLE_NAME: 'walk02',
 } as const
 
 
